@@ -10,6 +10,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #000000;
+  flex-direction: column;
 }
 .wrapper {
   position: relative;
@@ -89,4 +90,10 @@ body {
 }
 .wrapper input {
   display: none;
+}
+
+
+footer{
+  margin-top: 13px;
+  color: white;
 }
